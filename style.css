@@ -10,3 +10,27 @@
 section {
   padding-top: 6rem;
 }
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
+}
+
+/* My Album Section */
+
+.album-box {
+  position: relative;
+  background-color: #0c6efd;
+  border-radius: 10px;
+  height: 500px;
+}
+
+.album-box: ::before {
+  content : 'MY';
+  position: absolute;
+  color: #fff;
+  font-size
+}
